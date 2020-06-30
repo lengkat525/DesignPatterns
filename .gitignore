@@ -19,3 +19,5 @@ src/HelloWorld/Strategy/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E
 src/HelloWorld/Strategy/bin/Debug/Strategy.exe.config
 *.txt
 *.exe
+Debug/   
+obj/  
