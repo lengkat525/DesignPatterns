@@ -49,6 +49,7 @@
     <Compile Include="SimpleFactoryImplementation\CashFactory.cs" />
     <Compile Include="StrategyDemo\Context.cs" />
     <Compile Include="StrategyDemo\Strategy.cs" />
+    <Compile Include="StrategyImplementation\CashContext.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
