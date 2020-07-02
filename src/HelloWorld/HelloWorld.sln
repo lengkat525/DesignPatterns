@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "..\SimpleF
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{98653078-CA6F-42C0-BC1A-BFA5000AB76F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator", "Decorator\Decorator.csproj", "{11D590BF-185F-45D4-9E8E-9423B81F10B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{98653078-CA6F-42C0-BC1A-BFA5000AB76F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98653078-CA6F-42C0-BC1A-BFA5000AB76F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98653078-CA6F-42C0-BC1A-BFA5000AB76F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11D590BF-185F-45D4-9E8E-9423B81F10B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11D590BF-185F-45D4-9E8E-9423B81F10B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11D590BF-185F-45D4-9E8E-9423B81F10B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11D590BF-185F-45D4-9E8E-9423B81F10B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
