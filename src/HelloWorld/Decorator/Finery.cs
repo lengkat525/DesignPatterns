@@ -2,9 +2,20 @@
 
 namespace Decorator
 {
-    abstract class Finery
+    class Finery: Person
     {
-        public abstract void Show();
+        protected Person Component;
+
+        public void Decorate(Person component)
+        {
+            Component = component;
+        }
+
+        public override void Show()
+        {
+            Component?.Show();
+        }
+
     }
 
     class TShirts : Finery
@@ -12,6 +23,7 @@ namespace Decorator
         public override void Show()
         {
             Console.WriteLine("T-shirt");
+            base.Show();
         }
     }
 
@@ -20,6 +32,7 @@ namespace Decorator
         public override void Show()
         {
             Console.WriteLine("BigTrouser");
+            base.Show();
         }
     }
 
@@ -28,6 +41,7 @@ namespace Decorator
         public override void Show()
         {
             Console.WriteLine("Sneakers");
+            base.Show();
         }
     }
 
@@ -36,6 +50,7 @@ namespace Decorator
         public override void Show()
         {
             Console.WriteLine("Suit");
+            base.Show();
         }
     }
 
@@ -44,6 +59,7 @@ namespace Decorator
         public override void Show()
         {
             Console.WriteLine("Tie");
+            base.Show();
         }
     }
 
@@ -52,6 +68,7 @@ namespace Decorator
         public override void Show()
         {
             Console.WriteLine("LeatherShoes");
+            base.Show();
         }
     }
 }

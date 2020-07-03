@@ -9,43 +9,47 @@ namespace Decorator
 {
     class Person
     {
+        public Person()
+        {
+        }
         private readonly string _name;
         public Person(string name)
         {
             _name = name;
         }
 
-        public void WearShirts()
-        {
-            Console.WriteLine("T-shirt");
-        }
 
-        public void WearBigTrouser()
-        {
-            Console.WriteLine("BigTrouser");
-        }
+        //public void WearShirts()
+        //{
+        //    Console.WriteLine("T-shirt");
+        //}
 
-        public void WearSneakers()
-        {
-            Console.WriteLine("Sneakers");
-        }
+        //public void WearBigTrouser()
+        //{
+        //    Console.WriteLine("BigTrouser");
+        //}
 
-        public void WearSuit()
-        {
-            Console.WriteLine("Suit");
-        }
+        //public void WearSneakers()
+        //{
+        //    Console.WriteLine("Sneakers");
+        //}
 
-        public void WearTie()
-        {
-            Console.WriteLine("Tie");
-        }
+        //public void WearSuit()
+        //{
+        //    Console.WriteLine("Suit");
+        //}
 
-        public void WearLeatherShoes()
-        {
-            Console.WriteLine("LeatherShoes");
-        }
+        //public void WearTie()
+        //{
+        //    Console.WriteLine("Tie");
+        //}
 
-        public void Show()
+        //public void WearLeatherShoes()
+        //{
+        //    Console.WriteLine("LeatherShoes");
+        //}
+
+        public virtual void Show()
         {
             Console.WriteLine("{0}'s look", _name);
         }

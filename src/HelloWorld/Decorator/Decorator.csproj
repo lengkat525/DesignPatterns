@@ -43,6 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Component.cs" />
+    <Compile Include="Decorator.cs" />
     <Compile Include="Finery.cs" />
     <Compile Include="Person.cs" />
     <Compile Include="DecoratorDemo.cs" />
