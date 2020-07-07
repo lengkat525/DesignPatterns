@@ -45,8 +45,12 @@
   <ItemGroup>
     <Compile Include="FactoryMethodDemo.cs" />
     <Compile Include="IFactory.cs" />
+    <Compile Include="LeiFeng.cs" />
     <Compile Include="Operation.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SimpleFactory.cs" />
+    <Compile Include="Undergraduate.cs" />
+    <Compile Include="Volunteer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -6,8 +6,22 @@ namespace FactoryMethod
     {
         static void Main(string[] args)
         {
-            NewMethod();
+            //NewMethod();
+            //NewMethod1();
+            LeiFeng stuA = new Undergraduate();
+            stuA.Sweep();
+            LeiFeng volA = new Volunteer();
+            volA.BuyRice();
+            Console.Read();
+        }
 
+        private static void NewMethod1()
+        {
+            LeiFeng LearnFromLeiFeng = new Undergraduate();
+            LearnFromLeiFeng.BuyRice();
+            LearnFromLeiFeng.Sweep();
+            LearnFromLeiFeng.Wash();
+            Console.Read();
         }
 
         private static void NewMethod()
