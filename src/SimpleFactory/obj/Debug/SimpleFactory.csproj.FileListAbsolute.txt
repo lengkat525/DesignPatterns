@@ -4,3 +4,4 @@ C:\ZLeng\GitHub\DesignPatterns\src\SimpleFactory\bin\Debug\SimpleFactory.pdb
 C:\ZLeng\GitHub\DesignPatterns\src\SimpleFactory\obj\Debug\SimpleFactory.csproj.CoreCompileInputs.cache
 C:\ZLeng\GitHub\DesignPatterns\src\SimpleFactory\obj\Debug\SimpleFactory.exe
 C:\ZLeng\GitHub\DesignPatterns\src\SimpleFactory\obj\Debug\SimpleFactory.pdb
+C:\ZLeng\GitHub\DesignPatterns\src\SimpleFactory\obj\Debug\SimpleFactory.csprojAssemblyReference.cache
