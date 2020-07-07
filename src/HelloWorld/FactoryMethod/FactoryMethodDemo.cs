@@ -8,9 +8,9 @@ namespace FactoryMethod
         {
             //NewMethod();
             //NewMethod1();
-            LeiFeng stuA = new Undergraduate();
+            LeiFeng stuA = SimpleFactory.CreateLeiFeng("Undergraduate");
             stuA.Sweep();
-            LeiFeng volA = new Volunteer();
+            LeiFeng volA = SimpleFactory.CreateLeiFeng("Volunteer");
             volA.BuyRice();
             Console.Read();
         }
