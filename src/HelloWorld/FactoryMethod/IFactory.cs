@@ -1,6 +1,4 @@
-﻿using System.Security.Cryptography.X509Certificates;
-
-namespace FactoryMethod
+﻿namespace FactoryMethod
 {
     interface IFactory
     {
