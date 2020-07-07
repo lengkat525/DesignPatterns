@@ -17,10 +17,10 @@ namespace FactoryMethod
 
         private static void NewMethod1()
         {
-            LeiFeng LearnFromLeiFeng = new Undergraduate();
-            LearnFromLeiFeng.BuyRice();
-            LearnFromLeiFeng.Sweep();
-            LearnFromLeiFeng.Wash();
+            LeiFeng learnFromLeiFeng = new Undergraduate();
+            learnFromLeiFeng.BuyRice();
+            learnFromLeiFeng.Sweep();
+            learnFromLeiFeng.Wash();
             Console.Read();
         }
 
