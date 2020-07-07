@@ -21,3 +21,6 @@ src/HelloWorld/HelloWorld.sln
 src/HelloWorld/Strategy/bin/Debug/Strategy.exe.config
 *.pdb
 *.txt
+*.pdb
+Debug/   
+obj/  
