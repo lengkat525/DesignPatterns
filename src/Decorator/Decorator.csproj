@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{11D590BF-185F-45D4-9E8E-9423B81F10B6}</ProjectGuid>
+    <ProjectGuid>{C358BB10-A82F-49D2-AC1C-383A2C6515A5}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Decorator</RootNamespace>
     <AssemblyName>Decorator</AssemblyName>
@@ -45,9 +45,9 @@
   <ItemGroup>
     <Compile Include="Component.cs" />
     <Compile Include="Decorator.cs" />
+    <Compile Include="DecoratorDemo.cs" />
     <Compile Include="Finery.cs" />
     <Compile Include="Person.cs" />
-    <Compile Include="DecoratorDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

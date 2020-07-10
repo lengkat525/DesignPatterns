@@ -24,3 +24,6 @@ src/HelloWorld/Strategy/bin/Debug/Strategy.exe.config
 *.pdb
 Debug/   
 obj/  
+*.pdb
+*.exe
+*.exe

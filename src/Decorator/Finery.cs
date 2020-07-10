@@ -2,7 +2,7 @@
 
 namespace Decorator
 {
-    class Finery: Person
+    class Finery : Person
     {
         protected Person Component;
 
