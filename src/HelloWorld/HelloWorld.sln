@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28307.168
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "..\SimpleFactory\SimpleFactory.csproj", "{5A882AE2-E2CC-42CE-8B3C-77614939B6D4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proxy", "Proxy\Proxy.csproj", "{5E46EFB9-9302-4C56-B760-82BF76C6DCFB}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{9AE48A3F-467A-4DD8-84CF-3C9EC11263C9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{232D3179-BD54-43C6-8E86-C6D2378A5800}"
@@ -28,10 +26,6 @@ Global
 		{5A882AE2-E2CC-42CE-8B3C-77614939B6D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A882AE2-E2CC-42CE-8B3C-77614939B6D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A882AE2-E2CC-42CE-8B3C-77614939B6D4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5E46EFB9-9302-4C56-B760-82BF76C6DCFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5E46EFB9-9302-4C56-B760-82BF76C6DCFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5E46EFB9-9302-4C56-B760-82BF76C6DCFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5E46EFB9-9302-4C56-B760-82BF76C6DCFB}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9AE48A3F-467A-4DD8-84CF-3C9EC11263C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9AE48A3F-467A-4DD8-84CF-3C9EC11263C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AE48A3F-467A-4DD8-84CF-3C9EC11263C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
