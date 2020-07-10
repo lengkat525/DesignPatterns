@@ -11,7 +11,7 @@ namespace Decorator
         public abstract void Operation();
     }
 
-    class ConcreteComponent: Component
+    class ConcreteComponent : Component
     {
         public override void Operation()
         {
