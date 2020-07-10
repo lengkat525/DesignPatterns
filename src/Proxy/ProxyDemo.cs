@@ -1,4 +1,8 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Proxy
 {
@@ -8,7 +12,7 @@ namespace Proxy
         {
             // NewMethod();
             //NewMethod1();
-            Girl girl = new Girl {Name = "leng"};
+            Girl girl = new Girl { Name = "leng" };
             Proxy proxy = new Proxy(girl);
             proxy.GiveDolls();
             proxy.GiveFlowers();
@@ -18,7 +22,7 @@ namespace Proxy
 
         private static void NewMethod1()
         {
-            Girl leng = new Girl {Name = "kat"};
+            Girl leng = new Girl { Name = "kat" };
 
             Proxy yi = new Proxy(leng);
             yi.GiveChocolate();
@@ -30,7 +34,7 @@ namespace Proxy
 
         private static void NewMethod()
         {
-            Girl leng = new Girl {Name = "kat"};
+            Girl leng = new Girl { Name = "kat" };
 
             Pursuit yi = new Pursuit(leng);
             yi.GiveChocolate();

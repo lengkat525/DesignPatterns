@@ -1,11 +1,15 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace Proxy
 {
     class Pursuit : GiveGift
     {
         readonly Girl _mm;
-        
+
         public Pursuit(Girl mm)
         {
             _mm = mm;

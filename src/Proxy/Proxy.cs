@@ -1,4 +1,10 @@
-﻿namespace Proxy
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Proxy
 {
     class Proxy : GiveGift
     {
@@ -16,7 +22,7 @@
 
         public void GiveFlowers()
         {
-           _mm.GiveFlowers();
+            _mm.GiveFlowers();
         }
 
         public void GiveChocolate()

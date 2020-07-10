@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloWorld
+namespace Proxy
 {
-    class Program
+    interface GiveGift
     {
-        static void Main(string[] args)
-        {
-        }
+        void GiveDolls();
+        void GiveFlowers();
+        void GiveChocolate();
     }
 }
