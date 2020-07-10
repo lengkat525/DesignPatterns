@@ -1,7 +1,0 @@
-C:\ZLeng\GitHub\DesignPatterns\src\HelloWorld\bin\Debug\HelloWorld.exe.config
-C:\ZLeng\GitHub\DesignPatterns\src\HelloWorld\bin\Debug\HelloWorld.exe
-C:\ZLeng\GitHub\DesignPatterns\src\HelloWorld\bin\Debug\HelloWorld.pdb
-C:\ZLeng\GitHub\DesignPatterns\src\HelloWorld\obj\Debug\HelloWorld.csprojAssemblyReference.cache
-C:\ZLeng\GitHub\DesignPatterns\src\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
-C:\ZLeng\GitHub\DesignPatterns\src\HelloWorld\obj\Debug\HelloWorld.exe
-C:\ZLeng\GitHub\DesignPatterns\src\HelloWorld\obj\Debug\HelloWorld.pdb
