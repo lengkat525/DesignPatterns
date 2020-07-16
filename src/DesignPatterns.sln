@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFactory", "SimpleFact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TemplateMethod", "TemplateMethod\TemplateMethod.csproj", "{989CC3EC-48F6-4990-8D9E-5FE48F9042C6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade", "Facade\Facade.csproj", "{1DFC5C57-1500-44C7-A680-E9A1F57A6937}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Builder", "Builder\Builder.csproj", "{60B93CCE-E16D-4F5E-A643-3E3EDF10C28E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +60,14 @@ Global
 		{989CC3EC-48F6-4990-8D9E-5FE48F9042C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{989CC3EC-48F6-4990-8D9E-5FE48F9042C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{989CC3EC-48F6-4990-8D9E-5FE48F9042C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DFC5C57-1500-44C7-A680-E9A1F57A6937}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DFC5C57-1500-44C7-A680-E9A1F57A6937}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DFC5C57-1500-44C7-A680-E9A1F57A6937}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DFC5C57-1500-44C7-A680-E9A1F57A6937}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B93CCE-E16D-4F5E-A643-3E3EDF10C28E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B93CCE-E16D-4F5E-A643-3E3EDF10C28E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B93CCE-E16D-4F5E-A643-3E3EDF10C28E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B93CCE-E16D-4F5E-A643-3E3EDF10C28E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
