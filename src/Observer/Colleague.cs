@@ -3,7 +3,7 @@ using System;
 
 namespace Observer
 {
-    abstract class Colleague
+    abstract class Colleague //colleague is observer
     {
         protected string Name;
         protected IObserver Obs;
