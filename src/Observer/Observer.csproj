@@ -45,6 +45,8 @@
   <ItemGroup>
     <Compile Include="ObserverDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Secretary.cs" />
+    <Compile Include="StockObserver.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
