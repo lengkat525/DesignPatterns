@@ -2,22 +2,46 @@
 
 namespace Observer
 {
-    class Secretary
+    class Secretary : IObserver
     {
-        private IList<Observer> observers = new List<Observer>();
+        private readonly IList<Colleague> _colleague = new List<Colleague>();
 
-        public void Attach(Observer observer)
+        public void Attach(Colleague colleague)
         {
-            observers.Add(observer);
+            _colleague.Add(colleague);
         }
 
-        public void Detach(Observer observer) {
-            observers.Remove(observer);
+        public void Detach(Colleague colleague) {
+            _colleague.Remove(colleague);
         }
 
         public void Notify()
         {
-            foreach (Observer o in observers)
+            foreach (Colleague o in _colleague)
+            {
+                o.Update();
+            }
+        }
+
+        public string SecretaryAction { get; set; }
+    }
+
+    class Boss : IObserver
+    {
+        private readonly IList<Colleague> _colleague = new List<Colleague>();
+        public void Attach(Colleague colleague)
+        {
+            _colleague.Add(colleague);
+        }
+
+        public void Detach(Colleague colleague)
+        {
+            _colleague.Remove(colleague);
+        }
+
+        public void Notify()
+        {
+            foreach (Colleague o in _colleague)
             {
                 o.Update();
             }
