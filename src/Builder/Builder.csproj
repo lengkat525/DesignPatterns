@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{989CC3EC-48F6-4990-8D9E-5FE48F9042C6}</ProjectGuid>
+    <ProjectGuid>{60B93CCE-E16D-4F5E-A643-3E3EDF10C28E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>TemplateMethod</RootNamespace>
-    <AssemblyName>TemplateMethod</AssemblyName>
+    <RootNamespace>Builder</RootNamespace>
+    <AssemblyName>Builder</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,10 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AbstractClass.cs" />
-    <Compile Include="TemplateMethodDemo.cs" />
+    <Compile Include="BasicCode.cs" />
+    <Compile Include="BuilderDemo.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TestPaper.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
