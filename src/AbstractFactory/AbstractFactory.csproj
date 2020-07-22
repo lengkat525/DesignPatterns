@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AbstractFactoryDemo.cs" />
     <Compile Include="AccessFactory.cs" />
+    <Compile Include="DataAccess.cs" />
     <Compile Include="Model\Department.cs" />
     <Compile Include="Interface\IDepartment.cs" />
     <Compile Include="Interface\IFactory.cs" />
